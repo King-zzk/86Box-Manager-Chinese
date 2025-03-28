@@ -371,13 +371,18 @@ namespace _86boxManager
         private void lnkGithub2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             lnkGithub2.LinkVisited = true;
-            Process.Start("https://github.com/86Box/86Box");
+            Process.Start("https://github.com/King-zzk/86Box-Manager-Chinese");
         }
 
         private void lnkGithub_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             lnkGithub.LinkVisited = true;
             Process.Start("https://github.com/86Box/86BoxManager");
+        }
+
+        private void lblVersion1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

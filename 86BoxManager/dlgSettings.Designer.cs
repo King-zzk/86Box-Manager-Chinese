@@ -179,7 +179,7 @@
             this.tabGeneral.Controls.Add(this.gbxPaths);
             this.tabGeneral.Location = new System.Drawing.Point(4, 26);
             this.tabGeneral.Name = "tabGeneral";
-            this.tabGeneral.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabGeneral.Padding = new System.Windows.Forms.Padding(3);
             this.tabGeneral.Size = new System.Drawing.Size(681, 233);
             this.tabGeneral.TabIndex = 0;
             this.tabGeneral.Text = "通用";
@@ -344,7 +344,7 @@
             this.tabAdvanced.Controls.Add(this.gbxMisc);
             this.tabAdvanced.Location = new System.Drawing.Point(4, 26);
             this.tabAdvanced.Name = "tabAdvanced";
-            this.tabAdvanced.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabAdvanced.Padding = new System.Windows.Forms.Padding(3);
             this.tabAdvanced.Size = new System.Drawing.Size(681, 233);
             this.tabAdvanced.TabIndex = 1;
             this.tabAdvanced.Text = "高级";
@@ -433,7 +433,7 @@
             this.tabAbout.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.tabAbout.Location = new System.Drawing.Point(4, 26);
             this.tabAbout.Name = "tabAbout";
-            this.tabAbout.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabAbout.Padding = new System.Windows.Forms.Padding(3);
             this.tabAbout.Size = new System.Drawing.Size(681, 233);
             this.tabAbout.TabIndex = 2;
             this.tabAbout.Text = "关于";
@@ -471,6 +471,7 @@
             this.lblVersion1.Size = new System.Drawing.Size(137, 19);
             this.lblVersion1.TabIndex = 16;
             this.lblVersion1.Text = "<version goes here>";
+            this.lblVersion1.Click += new System.EventHandler(this.lblVersion1_Click);
             // 
             // lnkGithub2
             // 
@@ -478,10 +479,10 @@
             this.lnkGithub2.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.lnkGithub2.Location = new System.Drawing.Point(15, 177);
             this.lnkGithub2.Name = "lnkGithub2";
-            this.lnkGithub2.Size = new System.Drawing.Size(209, 19);
+            this.lnkGithub2.Size = new System.Drawing.Size(338, 19);
             this.lnkGithub2.TabIndex = 10;
             this.lnkGithub2.TabStop = true;
-            this.lnkGithub2.Text = "https://github.com/86Box/86Box";
+            this.lnkGithub2.Text = "https://github.com/King-zzk/86Box-Manager-Chinese";
             this.lnkGithub2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkGithub2_LinkClicked);
             // 
             // lblCopyright
